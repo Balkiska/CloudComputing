@@ -1,0 +1,23 @@
+1) Quels sont les avantages d'utiliser Terraform?
+Cela permet la mise en place et la gestion(automatisation) d'infrastructures dans le cloud.
+
+
+2) Comment fonctionne le Tfstate ?
+C'est l'état d'un fichier local qui peu être stocké à distance. Permet l'actualisation. Dis sa version etc.
+
+3) Comment invoquer des informations de ressources déjà existantes dans Terraform ?
+terraform apply -auto-approve
+
+4) Qu'est ce qu'Azure ? Que peut-on déployer sur Azure ? 
+Azure est le cloud microsoft. 
+On peut y déployer des infras, des applications, des API, aussi via des depots.
+
+5) Citez 2 outils DevOps (en dehors de Terraform) et donnez une description très basique de ces outils et leur utilité.
+Kubernetes : automatisation de paquets(containers)
+Docker : gestion de contenairs. Open source.
+
+6) Citez 2 droits Azure et leur utilité. 
+Droits d'accès à une groupe: de manière appropriée permet de réduire le risque d’attaque ou de violation de sécurité
+soit accessPackage 
+Demande d'accès package: permet de demander la décision de récupérer les propriétées d'un paquets
+soit approbation 

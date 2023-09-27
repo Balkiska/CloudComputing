@@ -1,3 +1,3 @@
 # CloudComputing
 
-Using terraform form AzureCloud
+Using terraform 
